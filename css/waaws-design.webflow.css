@@ -466,7 +466,7 @@ img {
 .third-section--text {
   margin-bottom: 0px;
   padding-bottom: 20px;
-  color: #063b4c;
+  color: #000;
   font-size: 16px;
   line-height: 22px;
   font-style: normal;
@@ -570,7 +570,7 @@ img {
 }
 
 .fourth-section--title:hover {
-  color: #ef486f;
+  color: #ff2e63;
 }
 
 .footer {
@@ -1205,7 +1205,7 @@ img {
   right: 460px;
   width: 30px;
   height: 30px;
-  background-color: #ef486f;
+  background-color: #ff2e63;
 }
 
 .howwedesign__top {
@@ -1323,8 +1323,8 @@ img {
 }
 
 .development__content-button.pink {
-  border-color: #ef486f;
-  color: #ef486f;
+  border-color: #ff2e63;
+  color: #ff2e63;
 }
 
 .howwedevelop {
@@ -1365,7 +1365,7 @@ img {
   width: 50%;
   height: 300px;
   margin: 2px;
-  background-color: #4cbd97;
+  background-color: #2bde73;
   background-image: url('../images/educatina_desktop.jpg');
   background-position: 0px 50%;
   background-size: cover;
@@ -1420,7 +1420,7 @@ img {
 .varsky_01 {
   width: 20%;
   margin: 2px;
-  background-color: #ef486f;
+  background-color: #ff2e63;
   background-image: url('../images/varsky_01.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -1441,7 +1441,7 @@ img {
 .portfolio_article-pictery {
   width: 33%;
   margin: 2px;
-  background-color: #ef486f;
+  background-color: #ff2e63;
   background-image: url('../images/pictery_01.jpg');
   background-position: 100% 100%;
   background-size: 400px;
@@ -1602,7 +1602,7 @@ img {
   height: 4px;
   max-height: 4px;
   min-height: 4px;
-  background-color: #ef486f;
+  background-color: #ff2e63;
   opacity: 0;
   -webkit-transform: scale3d(0, 1, 1);
   transform: scale3d(0, 1, 1);
@@ -1623,7 +1623,7 @@ img {
 }
 
 .third-section-button--text:hover {
-  color: #ef486f;
+  color: #ff2e63;
 }
 
 .fourth-section__titlediv {
@@ -1794,7 +1794,7 @@ img {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  background-color: #ef486f;
+  background-color: #ff2e63;
 }
 
 .job__positions--button {
@@ -2116,7 +2116,7 @@ img {
 .vinti_01 {
   width: 24%;
   margin: 2px;
-  background-color: #4cbd97;
+  background-color: #2bde73;
   background-image: url('../images/2016-vinti.jpg');
   background-position: 0px 50%;
   background-size: cover;
@@ -2132,6 +2132,7 @@ img {
   display: block;
   height: 250px;
   margin: 2px;
+  background-color: #ff2e63;
   background-image: url('../images/river-2016.jpg');
   background-position: 50% 0px;
   background-size: cover;
@@ -2147,7 +2148,7 @@ img {
   display: block;
   height: 250px;
   margin: 2px;
-  background-color: #4cbd97;
+  background-color: #ff2e63;
   background-image: url('../images/sitch_02.jpg');
   background-position: 50% 83%;
   background-size: cover;
@@ -2165,7 +2166,7 @@ img {
 }
 
 .span {
-  color: #ef486f;
+  color: #ff2e63;
   font-weight: 500;
 }
 
