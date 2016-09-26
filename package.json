@@ -1,0 +1,22 @@
+{
+  "name": "waaws-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waaws/waaws-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waaws/waaws-site/issues"
+  },
+  "homepage": "https://github.com/waaws/waaws-site#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
