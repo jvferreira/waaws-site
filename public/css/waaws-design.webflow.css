@@ -1362,14 +1362,23 @@ img {
 }
 
 .portolio__article-educatina {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 50%;
   height: 300px;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #2bde73;
   background-image: url('../images/educatina_desktop.jpg');
   background-position: 0px 50%;
   background-size: cover;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 .portolio__article-educatina:hover {
@@ -1377,13 +1386,22 @@ img {
 }
 
 .futboleando_01 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 50%;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #fcf200;
   background-image: url('../images/futboleando_1.png');
   background-position: 50% 100%;
   background-size: cover;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 .futboleando_01:hover {
@@ -1418,13 +1436,22 @@ img {
 }
 
 .varsky_01 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 20%;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #ff2e63;
   background-image: url('../images/varsky_01.jpg');
   background-position: 50% 50%;
   background-size: cover;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 .varsky_01:hover {
@@ -1439,13 +1466,22 @@ img {
 }
 
 .portfolio_article-pictery {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 33%;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #ff2e63;
   background-image: url('../images/pictery_01.jpg');
   background-position: 100% 100%;
   background-size: 400px;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 .portfolio_article-pictery:hover {
@@ -1453,13 +1489,22 @@ img {
 }
 
 .aulaya_01 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 33%;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #fcf200;
   background-image: url('../images/AulaYa.png');
   background-position: 50% 50%;
   background-size: cover;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 .aulaya_01:hover {
@@ -1467,14 +1512,23 @@ img {
 }
 
 .portfolio_article-vinti {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 33%;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #007fe1;
   background-image: url('../images/bisu.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 .portfolio_article-vinti:hover {
@@ -2075,15 +2129,24 @@ img {
 }
 
 .snapcar_01 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 50%;
   height: 350px;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #007fe1;
   background-image: url('../images/snapcar-2016.jpg');
   background-position: 0px 50%;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.8;
+  text-decoration: none;
 }
 
 .snapcar_01:hover {
@@ -2096,7 +2159,15 @@ img {
 }
 
 .letgo_01 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -2107,6 +2178,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.8;
+  text-decoration: none;
 }
 
 .letgo_01:hover {
@@ -2114,14 +2186,23 @@ img {
 }
 
 .vinti_01 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 24%;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #2bde73;
   background-image: url('../images/2016-vinti.jpg');
   background-position: 0px 50%;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 .vinti_01:hover {
@@ -2129,15 +2210,23 @@ img {
 }
 
 .river_01 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 250px;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #ff2e63;
   background-image: url('../images/river-2016.jpg');
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 .river_01:hover {
@@ -2145,15 +2234,23 @@ img {
 }
 
 .sitch_01 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 250px;
   margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #ff2e63;
   background-image: url('../images/sitch_02.jpg');
   background-position: 50% 83%;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 .sitch_01:hover {
@@ -2190,6 +2287,106 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.portfolio__title {
+  height: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: #007fe1;
+}
+
+.portfolio__title--h3 {
+  display: block;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Kreon, sans-serif;
+  font-weight: 700;
+}
+
+.quasar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33.3%;
+  margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-image: url('../images/quasar.png');
+  background-position: 0px 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.zoigen {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-image: url('../images/zoigen.png');
+  background-position: 0px 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.gyde {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-image: url('../images/gyde.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.proyect__hover {
+  display: none;
+  opacity: 0;
+  -webkit-transform: translate(-30px, 0px);
+  -ms-transform: translate(-30px, 0px);
+  transform: translate(-30px, 0px);
+}
+
+.proyect__hover--title {
+  margin-bottom: 4px;
+  padding: 5px 10px;
+  background-color: #2bde73;
+  color: #000;
+  text-decoration: none;
+}
+
+.proyect__hover--description {
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+.proyect__hover--span {
+  color: #2bde73;
 }
 
 @media (max-width: 991px) {
