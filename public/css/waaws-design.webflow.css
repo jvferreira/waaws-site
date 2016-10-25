@@ -2013,11 +2013,17 @@ img {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  border: 2px solid #ef486f;
-  background-color: #ef486f;
+  border: 2px solid #ff2e63;
+  background-color: #ff2e63;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.jobs__form--button:hover {
+  border-color: #2bde73;
+  background-color: #2bde73;
+  color: #000;
 }
 
 .checkbox--text {
@@ -2061,7 +2067,7 @@ img {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  background-color: #ef486f;
+  background-color: #ff2e63;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -2441,6 +2447,36 @@ img {
   border-radius: 6px;
 }
 
+._404-cover {
+  height: 70vh;
+  min-height: 400px;
+  padding-top: 30px;
+  padding-left: 30px;
+  background-image: url('../images/404.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+._404-title {
+  font-family: Kreon, sans-serif;
+  text-align: center;
+}
+
+._404-link {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ff2e63;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+
+._404-link:hover {
+  color: #007fe1;
+}
+
 @media (max-width: 991px) {
   .header {
     padding-right: 2%;
@@ -2676,6 +2712,9 @@ img {
   .hiring-screen {
     padding-right: 10px;
     padding-left: 10px;
+  }
+  ._404-cover {
+    min-height: 200px;
   }
 }
 
@@ -3086,6 +3125,13 @@ img {
   .hiring-screen {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  ._404-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  ._404-link {
+    font-size: 16px;
   }
 }
 
