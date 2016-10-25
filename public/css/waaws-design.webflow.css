@@ -1780,6 +1780,10 @@ img {
   background-repeat: no-repeat;
 }
 
+.jobs_titles.hiring-cover {
+  padding-bottom: 2px;
+}
+
 .jobs__positions--job {
   height: 200px;
   margin: 2px;
@@ -1999,6 +2003,10 @@ img {
   font-family: Kreon, sans-serif;
 }
 
+.jobs__modal--container--title.hiring-title {
+  text-align: left;
+}
+
 .jobs__form--button {
   width: 100%;
   margin-top: 20px;
@@ -2064,11 +2072,16 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 .jobs__info.hide {
@@ -2389,6 +2402,45 @@ img {
   color: #2bde73;
 }
 
+.hiring {
+  margin-top: -6px;
+  padding: 4px 10px;
+  background-color: #fcf200;
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.hiring-screen {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.form-hiring {
+  width: 54%;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid #000;
+  border-radius: 6px;
+}
+
 @media (max-width: 991px) {
   .header {
     padding-right: 2%;
@@ -2455,6 +2507,18 @@ img {
   .first-section__container {
     padding-right: 2%;
     padding-left: 2%;
+  }
+  .hiring-screen {
+    padding-right: 30px;
+    padding-left: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .form-hiring {
+    width: 100%;
   }
 }
 
@@ -2608,6 +2672,10 @@ img {
   }
   .sitch_01 {
     height: 200px;
+  }
+  .hiring-screen {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -3014,6 +3082,10 @@ img {
   }
   .image-close {
     width: 100%;
+  }
+  .hiring-screen {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
