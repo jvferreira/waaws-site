@@ -1855,6 +1855,10 @@ img {
   background-color: #ff2e63;
 }
 
+.jobs__titles--container.developer {
+  background-color: #007fe1;
+}
+
 .job__positions--button {
   display: none;
   margin-right: 20px;
