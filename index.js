@@ -14,6 +14,10 @@ app.use(function(req, res, next){
   }
 });
 
+app.use(function(req, res, next) {
+  res.status(404).sendFile(__dirname+'/public/404-page-not-found.html');
+});
+
 app.listen(port,function(){
   console.log('runnnig on http://localhost:'+port);
 });
