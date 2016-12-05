@@ -7,8 +7,8 @@ var fs = require('fs');
 app.use(express.static(__dirname+'/public'));
 
 app.use(function(req, res, next){
-  if(fs.existsSync(__dirname + '/public' + req.url + '.html')){
-    res.redirect(301, req.url + '.html');
+  if(fs.existsSync(__dirname + '/public' + req._parsedUrl.pathname + '.html')){
+    res.redirect(301, req._parsedUrl.pathname + '.html' + (req._parsedUrl.search || ''));
   }else{
     next();
   }
