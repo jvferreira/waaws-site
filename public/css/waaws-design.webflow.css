@@ -2481,6 +2481,16 @@ img {
   color: #007fe1;
 }
 
+.contacto--form {
+  display: block;
+  width: 60%;
+  margin: -50px auto 40px;
+  padding: 4% 5%;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .14);
+}
+
 @media (max-width: 991px) {
   .header {
     padding-right: 2%;
