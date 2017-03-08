@@ -2730,6 +2730,11 @@ img {
   ._404-cover {
     min-height: 200px;
   }
+  .contacto--form {
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+  }
 }
 
 @media (max-width: 479px) {
